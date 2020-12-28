@@ -68,7 +68,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"generic-assemblies.json#start"
+                 "value":"{<lobby>\/maps\/generic-assemblies.json#start_kinkygeeks}"
                 }],
          "type":"tilelayer",
          "visible":true,
