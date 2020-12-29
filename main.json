@@ -86,7 +86,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"playroom.json#startpPlaying"
+                 "value":"playroom.json#startPlaying"
                 }],
          "type":"tilelayer",
          "visible":true,
