@@ -104,7 +104,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"world:\/\/lobby\/kunstinsel.json#start_kinkygeeks}"
+                 "value":"world:\/\/lobby\/kunstinsel.json#start_kinkygeeks"
                 }],
          "type":"tilelayer",
          "visible":true,
