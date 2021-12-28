@@ -16,6 +16,12 @@
          "id":29,
          "name":"border",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"collide",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":60,
@@ -33,6 +39,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/kinkygeeks.de"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -69,6 +80,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"kinkyGeeks"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -122,7 +138,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"playroom.json#startPlaying"
+                 "value":"playroom.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -347,15 +363,6 @@
                  "properties":[
                         {
                          "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":4,
-                 "properties":[
-                        {
-                         "name":"silent",
                          "type":"bool",
                          "value":true
                         }]
