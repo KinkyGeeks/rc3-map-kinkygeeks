@@ -16,12 +16,6 @@
          "id":29,
          "name":"border",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"collide",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":60,
@@ -62,6 +56,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/kinkygeeks.de\/contact\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
