@@ -122,7 +122,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"world:\/\/kinkygeeks\/playroom.json#startPlaying"
+                 "value":"playroom.json#startPlaying"
                 }],
          "type":"tilelayer",
          "visible":true,
